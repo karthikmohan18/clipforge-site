@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy – ClipForge</title>
+<meta name="description" content="How ClipForge accesses and stores Google and YouTube data.">
+<style>
+  :root { --bg:#fbfaf7; --fg:#1d1c1a; --muted:#5f5b53; --line:#e3dfd6; --accent:#b4451f; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#151412; --fg:#ece9e2; --muted:#a39e93; --line:#2e2b26; --accent:#f08a5d; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg);
+         font:17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 40rem; margin: 0 auto; padding: 4rem 1rem 3rem; }
+  h1 { font-size: 2rem; line-height:1.2; margin: 0 0 .3rem; letter-spacing:-.02em; }
+  h2 { font-size: 1.15rem; margin: 2.2rem 0 .4rem; }
+  p { margin: 0 0 1rem; }
+  .meta { color: var(--muted); }
+  a { color: var(--accent); }
+  ul { padding-left: 1.2rem; margin: 0 0 1rem; }
+  footer { border-top: 1px solid var(--line); margin-top: 3rem; padding-top: 1rem;
+           color: var(--muted); font-size: .92rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy policy</h1>
+  <p class="meta">ClipForge · Last updated 13 November 2026</p>
+
+  <h2>Summary</h2>
+  <p>ClipForge is a personal tool run by its developer for their own channels. It has no public sign-up, no user accounts and no analytics. The only Google data it touches is the permission to upload videos to the YouTube channels its owner has authorized.</p>
+
+  <h2>What ClipForge accesses</h2>
+  <ul>
+    <li><strong>YouTube upload permission.</strong> ClipForge requests a single Google permission, <code>youtube.upload</code>, which lets it upload videos to an authorized channel. It uses this only to upload clips it has produced.</li>
+    <li>It does not read your watch history, subscriptions, comments, contacts, email or any other Google account data.</li>
+    <li>It also posts the same clips to its owner's own Instagram accounts and Facebook Pages through Meta's APIs, using permissions limited to publishing content.</li>
+  </ul>
+
+  <h2>What is stored, and where</h2>
+  <ul>
+    <li>The access tokens that Google and Meta issue when a channel is authorized. These are kept as encrypted secrets in the private code repository that runs ClipForge and are used only to publish clips.</li>
+    <li>A log of the clips ClipForge has published (title, link and date), kept in the same private repository.</li>
+  </ul>
+  <p>ClipForge does not collect or store any information about viewers of the clips.</p>
+
+  <h2>Sharing</h2>
+  <p>ClipForge does not sell, rent or share any data with third parties. Videos are sent to YouTube, Instagram and Facebook solely to publish them on the owner's own channels.</p>
+
+  <h2>Removing access</h2>
+  <p>Access can be withdrawn at any time from the Google Account permissions page at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. Once access is removed, the stored token stops working.</p>
+
+  <h2>YouTube API Services</h2>
+  <p>ClipForge uses YouTube API Services. Use of YouTube through ClipForge is subject to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <a href="mailto:karthiktheking0801@gmail.com">karthiktheking0801@gmail.com</a></p>
+
+  <footer>
+    <a href="./">ClipForge home</a>
+  </footer>
+</main>
+</body>
+</html>
